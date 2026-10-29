@@ -30,9 +30,9 @@ else{
 
    public static void main(String[]argss){
       Scanner sc=new Scanner(System.in);
-      CARandBIKEms[]a=new CARandBIKEms[50];
-      int count=0;
-      int total=0;
+
+      List<CARandBIKEms>vehicles=new ArrayList<CARandBIKEms>();
+      
 
       
 
