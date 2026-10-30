@@ -115,4 +115,3 @@ static void displayVehicles() {
     }
 }
 }
-
