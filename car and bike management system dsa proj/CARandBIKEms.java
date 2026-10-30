@@ -1,5 +1,5 @@
 import java.util.*;
-abstract class Vehicle{
+class Vehicle{
 int id;
 String name;
 String type; 
@@ -13,7 +13,6 @@ this.type=type;
 this.price=price; 
 this.rented=false;
 } 
-abstract void ShowDetails();
 
 void showdisplay(){
 System.out.println("ID" + id );
@@ -36,21 +35,20 @@ class Car extends Vehicle{
       super(id,name,type,price);
       this.seats=seats;
    } 
-   @Override
-   void ShowDetails(){
-      showdisplay();
+   
+      void showdisplay(){
+         super.showdisplay();
       System.out.println("SEATS" + seats);
    }  
-}
+}  
 class Bike extends Vehicle{
    int engineCC;
    Bike(int id,String name,String type,double price,int engineCC){
       super(id,name,type,price);
       this.engineCC=engineCC;
    }
-   @Override 
-   void ShowDetails(){
-      showdisplay();
+   void showdisplay(){
+      super.showdisplay();
       System.out.println("ENGINE CC" + engineCC);
    }
 }
