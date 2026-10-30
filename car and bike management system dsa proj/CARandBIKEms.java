@@ -18,7 +18,7 @@ System.out.println("ID" + id );
 System.out.println("NAME OF THE VEHICLE " + name);
 System.out.println("TYPE OF VEHICLE" + type);
 System.out.println("PRICE OF RENTING"+ price);
-System.out.println("STATUS"+ (rented +"RENTED : AVAILABLE "));
+
 if(rented==true){
    System.out.println("STATUS" + "IT IS RENTED");
 }
@@ -32,9 +32,6 @@ else{
       Scanner sc=new Scanner(System.in);
 
       List<CARandBIKEms>vehicles=new ArrayList<CARandBIKEms>();
-      
-
-      
 
 
    
