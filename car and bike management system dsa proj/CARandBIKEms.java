@@ -53,16 +53,3 @@ class Bike extends Vehicle{
    }
 }
 
-public class CARandBIKEms {
-
-
-   public static void main(String[]argss){
-      Scanner sc=new Scanner(System.in);
-
-      List<CARandBIKEms>vehicles=new ArrayList<CARandBIKEms>();
-
-
-   
-
-      }
-   }
